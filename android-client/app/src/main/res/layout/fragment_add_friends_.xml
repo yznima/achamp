@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="achamp.project.org.achamp.AddingFriends.AddFriends_Fragment">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Sign Off"
+        android:textSize="20dp"
+        android:id="@+id/sign_off"
+        android:layout_gravity="right" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.15"
+        android:layout_height="0dp"
+        android:layout_gravity="center">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Block Notification"
+            android:textSize="20dp"
+            android:switchMinWidth="30dp"
+            android:id="@+id/block_notification"
+            android:checked="false" />
+    </LinearLayout>
+</LinearLayout>
